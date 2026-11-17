@@ -6,25 +6,25 @@ cask "ptop" do
     end
   end
 
-  version "1.12.0"
+  version "1.13.0"
 
   on_macos do
     on_arm do
-      sha256 "d5334c1eb73dfc0c1f99a33c4282decbff867eb6317ab1e0955a07f8b79a5435"
+      sha256 "59a58c296ef4d5c6a5f91fb562a91fb3ef33b6e0da96d74ff614fd60cb44cd11"
       url "https://github.com/trentas/ptop/releases/download/v#{version}/ptop-#{version}-darwin-arm64.tar.gz"
     end
     on_intel do
-      sha256 "106b8ae33113d0400c5a4aed75f9502b4f43f86bd4fed1707c43c7ef2ea4168c"
+      sha256 "8317f2fbce33aff438aa44d27c2acdf4527c21a6f759a3b2b5a224d4b2962677"
       url "https://github.com/trentas/ptop/releases/download/v#{version}/ptop-#{version}-darwin-amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "9328a7bece420b9444cc922478084ae2c9832abb343c5076145abf3110e2c81a"
+      sha256 "ea5d39b8625c6e18313ec87cd18b2c060142b54c683476fbe0546cf175206021"
       url "https://github.com/trentas/ptop/releases/download/v#{version}/ptop-#{version}-linux-arm64.tar.gz"
     end
     on_intel do
-      sha256 "8643ae8663210209e58fb2b81578e4081c3b35d5e91e710920e466518b6f6559"
+      sha256 "0db63179fa5d95a348aa5921d5cb960b96a2acb7949606f5d3b4f2777e650d19"
       url "https://github.com/trentas/ptop/releases/download/v#{version}/ptop-#{version}-linux-amd64.tar.gz"
     end
   end
